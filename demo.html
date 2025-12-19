@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ADA Widget Demo | Portable Embed</title>
+    <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <p class="pill">Widget demo</p>
+            <h1>Accessibility widget, drop-in ready.</h1>
+            <p class="muted hero__lede">Portable accessibility controls you can add to any page. No external CSS, no build step, just include the script.</p>
+            <div class="hero__cta">
+                <a class="btn" href="#more">See it on this page</a>
+                <a class="btn secondary" href="ada-widget.js">View the script</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container" id="more">
+        <section class="grid">
+            <article class="card">
+                <h2>What it covers</h2>
+                <ul>
+                    <li>Namespaced classes (<code>hw-ada-*</code>) so styles do not collide.</li>
+                    <li>Large text, spacing, high contrast, link underline and highlight.</li>
+                    <li>Reduce motion, grayscale or invert for visual comfort.</li>
+                    <li>Reading guide bar and screen reader outlines.</li>
+                    <li>Reset restores defaults; preferences persist via <code>localStorage</code>.</li>
+                </ul>
+            </article>
+            <article class="card">
+                <h2>How to add it</h2>
+                <p class="muted">Copy the script into your project and include it near the end of <code>body</code>.</p>
+                <pre><code>&lt;script src=&quot;/js/ada-widget.js&quot; defer&gt;&lt;/script&gt;</code></pre>
+                <p class="muted">Optional: set your own storage key before loading.</p>
+<pre><code>&lt;script&gt;
+  window.hwAdaConfig = { storageKey: 'mySiteAdaPrefs' };
+&lt;/script&gt;</code></pre>
+            </article>
+        </section>
+
+        <section class="card">
+            <h2>Live content to try</h2>
+            <p>This paragraph and the links below respond to every toggle. Try high contrast, underline, or highlight on these links: <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">WCAG</a> and <a href="https://webaim.org/">WebAIM</a>.</p>
+            <p>Large text and spacing make long reads calmer. Reduce motion cuts transitions. The reading guide follows your pointer.</p>
+            <ul>
+                <li>Link treatments stay visible.</li>
+                <li>Spacing keeps paragraphs comfortable.</li>
+                <li>Contrast and grayscale shift the palette.</li>
+            </ul>
+        </section>
+
+        <section class="card table-card">
+            <h2>Quick table</h2>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Feature</th>
+                            <th scope="col">What it does</th>
+                            <th scope="col">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Large text</td>
+                            <td>Boosts base font size and line-height.</td>
+                            <td><span class="badge">Ready</span></td>
+                        </tr>
+                        <tr>
+                            <td>Reading guide</td>
+                            <td>Highlights the line under your cursor.</td>
+                            <td><span class="badge">Ready</span></td>
+                        </tr>
+                        <tr>
+                            <td>Reset</td>
+                            <td>Clears preferences and restores defaults.</td>
+                            <td><span class="badge">Ready</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="card motion-card">
+            <h2>Reduce motion preview</h2>
+            <p class="muted">Toggle "Reduce motion" in the widget to pause the shimmer and floating orb below.</p>
+            <div class="motion-wrap">
+                <div class="motion-bar" aria-hidden="true"></div>
+                <div class="motion-orb" aria-hidden="true"></div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>API hooks</h2>
+            <ul>
+                <li><code>hwAda.open()</code> / <code>hwAda.close()</code> to control the panel.</li>
+                <li><code>hwAda.set('largeText', true)</code> to flip specific features.</li>
+                <li><code>hwAda.reset()</code> to clear saved preferences.</li>
+            </ul>
+        </section>
+
+        <section class="card center">
+            <h2>Try the widget</h2>
+            <p class="muted">Use the "Accessibility" button floating at the bottom-right. Every option applies to this page immediately.</p>
+        </section>
+    </main>
+
+    <footer>
+        Built to be copied anywhere. No dependencies beyond this folder; just include the script and try the controls.
+    </footer>
+
+    <script src="ada-widget.js" defer></script>
+</body>
+</html>
