@@ -5,8 +5,8 @@ A self-contained accessibility widget you can drop onto any site. It injects its
 This is a widget I have been working on at [https://www.hyperwebmedia.com](https://www.hyperwebmedia.com) for some time, and deploying on client websites. I have finally refined it enough to give away to the public.
 
 ## Files
-- `ada-widget.js` — drop-in script, no build step required.
-- `demo.html` / `demo.css` — minimal demo page that showcases the controls and their effects.
+- `ada-widget.js` - drop-in script, no build step required.
+- `demo.html` / `demo.css` - minimal demo page that showcases the controls and their effects.
 
 ## Quick start
 1) Copy `ada-widget.js` to your site (e.g., `/js/ada-widget.js`).
@@ -32,10 +32,10 @@ Open `demo.html` in a browser to see the widget running against typical content.
 
 ## Public API
 Available on `window.hwAda` after the script loads:
-- `hwAda.set(key, value)` — enable/disable a feature (`largeText`, `spacing`, `highContrast`, `underline`, `highlight`, `reduceMotion`, `grayscale`, `invert`, `readingGuide`, `screenReader`).
-- `hwAda.reset()` — clear all preferences.
+- `hwAda.set(key, value)` - enable/disable a feature (`largeText`, `spacing`, `highContrast`, `underline`, `highlight`, `reduceMotion`, `grayscale`, `invert`, `readingGuide`, `screenReader`).
+- `hwAda.reset()` - clear all preferences.
 - `hwAda.open()` / `hwAda.close()` — control the panel.
-- `hwAda.prefs` — current preference state object.
+- `hwAda.prefs` - current preference state object.
 
 ## Styling and overrides
 - All widget styles are injected by `ada-widget.js`; no extra CSS file is required.
