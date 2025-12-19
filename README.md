@@ -1,4 +1,4 @@
-# Hyperweb ADA Widget (portable)
+# Hyperweb ADA/WCAG2.2 Compliance Widget (portable)
 
 A self-contained accessibility widget you can drop onto any site. It injects its own markup and styles, persists preferences in `localStorage`, and exposes a small API for scripting.
 
