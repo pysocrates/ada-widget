@@ -1,6 +1,6 @@
 # Hyperweb ADA/WCAG2.2 Compliance Widget (portable)
 
-Live demo here: [https://www.hyperwebmedia.com/ada-widget/demo.html](https://www.hyperwebmedia.com/ada-widget/demo.html)
+Live demo here: [https://www.hyperwebmedia.com//text-reader/demo.html](https://www.hyperwebmedia.com//text-reader/demo.html)
 
 A self-contained accessibility widget you can drop onto any site. It injects its own markup and styles, persists preferences in `localStorage`, and exposes a small API for scripting.
 
