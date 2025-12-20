@@ -4,7 +4,13 @@ Live demo here: [https://www.hyperwebmedia.com/ada-widget/demo.html](https://www
 
 A self-contained accessibility widget you can drop onto any site. It injects its own markup and styles, persists preferences in `localStorage`, and exposes a small API for scripting.
 
-This is a widget I have been working on at [https://www.hyperwebmedia.com](https://www.hyperwebmedia.com) for some time, and deploying on client websites. I have finally refined it enough to give away to the public.
+This is a widget I have been working on at [https://www.hyperwebmedia.com](https://www.hyperwebmedia.com) for some time, and deploying on client websites. I have finally refined it enough to give away to the public. I enjoy creating solutions that actually help people and I hope you find this helpful.
+
+More information about ADA/WCAG Compliant Websites can be found here: 
+
+[https://www.hyperwebmedia.com/ada-compliance](https://www.hyperwebmedia.com/ada-compliance)
+[https://www.hyperwebmedia.com/resources/ada-checklist-website](https://www.hyperwebmedia.com/resources/ada-checklist-website)
+
 
 ## Files
 - `ada-widget.js` - drop-in script, no build step required.
