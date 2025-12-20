@@ -9,6 +9,7 @@ This is a widget I have been working on at [https://www.hyperwebmedia.com](https
 More information about ADA/WCAG Compliant Websites can be found here: 
 
 [https://www.hyperwebmedia.com/ada-compliance](https://www.hyperwebmedia.com/ada-compliance)
+
 [https://www.hyperwebmedia.com/resources/ada-checklist-website](https://www.hyperwebmedia.com/resources/ada-checklist-website)
 
 
